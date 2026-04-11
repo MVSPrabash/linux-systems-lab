@@ -3,11 +3,13 @@
 
 int main() {
     printf("Forking\n");
-    int ppid = fork();
+    int pid = fork();
 
-    if (ppid == 0) {  // Child proc
-        printf("Child Process\n");
+    if (pid == 0) {  // Child proc
+        int cpid = getpid();
+        printf("Child pid: %d\n", cpid);
     } else {          // Parent proc
-        printf("Parent Process\n");
+        int ppid = getpid();
+        printf("Parent pid: %d\n", ppid);
     }
 }
