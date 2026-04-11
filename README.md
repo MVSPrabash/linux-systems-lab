@@ -1,7 +1,7 @@
 # Linux System Lab
 
 ## Description
-Playground project to experiment Operating System's concepts using Linux.
+Leaning project to demonstrate the Operating System's concepts using Linux.
 
 ## Concepts (Roughly)
 - Process Management
