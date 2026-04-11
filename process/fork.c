@@ -17,7 +17,7 @@ int main() {
     } else {          // Parent proc
         int ppid = getpid();
         printf("Parent proc: pid: %d\n", ppid);
-        /// TODO: Retrieve the return value of child proc and print it to stdout
+        
         int status;
         waitpid(pid, &status, 0);
 
