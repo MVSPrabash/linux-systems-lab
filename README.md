@@ -1,4 +1,4 @@
-# Linux System Lab
+# Operating Systems Lab
 
 ## Description
 Leaning project to demonstrate the Operating System's concepts using Linux.
